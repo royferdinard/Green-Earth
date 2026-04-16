@@ -3013,7 +3013,7 @@ header nav{
     padding-bottom: 0;
 }
 }
-@media (max-width: 950px){
+/*@media (max-width: 950px){
     header{
         position: fixed;
         height: auto;
@@ -3025,7 +3025,7 @@ header nav{
         gap: 1rem;
         padding: 12px 16px;
     }*/
-   .searches{
+  /* .searches{
         width: 100%;
         max-width: 100%;
         margin: 0;
@@ -3241,7 +3241,7 @@ header nav{
     padding-top: 0;
     padding-bottom: 0;
 }
-}
+}*/
 @media (max-width: 700px){
     header{
         display: flex;

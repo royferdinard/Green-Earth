@@ -2837,6 +2837,181 @@ header nav{
 .cart-btn .carticon{
     display: none;
 }
+.popItem{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    gap: 0;
+}
+.popOutline{
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.search-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    overflow: hidden;
+    width: 70%;
+}
+.search-input-container input{
+    width: 70%;
+    height: 2rem;
+}
+.imageScetion{
+    width: 100%;
+    height: 40%;
+}
+.search-popup.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.search-pop-container{
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.filterTabs button{
+    width: 3rem;
+    height: 3rem;
+}
+.productDetail{
+    width: 100%;
+    gap: 0.3rem;
+}
+.productDetail h6{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.popdescription,.popitemCategory,.discount,.popPrice{
+    font-size: 0.9rem;
+}
+.cartContainer{
+    margin-top: 5rem;
+}
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.cartCard{
+    width: 96%;
+}
+.cart-product{
+    width: 100%;
+    margin-right: 3rem;
+}
+.checkout{
+    width: 100%;
+   
+}
+.orderbox{
+    margin-top: 5rem;
+}
+.categori-view{
+    margin-top: 5rem;
+}
+.Cartcheckout{
+    margin-top: 9rem;
+    padding: 1rem;
+}
+.checkDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutForm{
+    width: 90%;
+    gap: 1rem;
+}
+.name-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding-top: 0.5rem;
+}
+.name-email input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 6px rgba(128, 128, 128, 0.053);
+}
+.billingCheckout{
+    width: 90%;
+}
+header nav{
+    gap: 0;
+}
+.hero-content{
+    top: 0;
+    margin-left: 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pop-msg{
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+}
+.orderbox{
+    margin-top: 6.5rem;
+}
+.orders{
+    width: 100%;
+}
+.cartImage{
+    width: 6rem;
+    height: auto;
+}
+.cartImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cartOutline{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.cartOutline p{
+    font-size: 0.9rem;
+}
+.icreament-Button{
+    gap: 0.5rem;
+}
+
+
+.search-pop-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 }
 @media (max-width: 950px){
     header{
@@ -2891,6 +3066,180 @@ header nav{
 }
 .cart-btn .carticon{
     display: none;
+}
+.popItem{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    gap: 0;
+}
+.popOutline{
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.search-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    overflow: hidden;
+    width: 70%;
+}
+.search-input-container input{
+    width: 70%;
+    height: 2rem;
+}
+.imageScetion{
+    width: 100%;
+    height: 40%;
+}
+.search-popup.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.search-pop-container{
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.filterTabs button{
+    width: 3rem;
+    height: 3rem;
+}
+.productDetail{
+    width: 100%;
+    gap: 0.3rem;
+}
+.productDetail h6{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.popdescription,.popitemCategory,.discount,.popPrice{
+    font-size: 0.9rem;
+}
+.cartContainer{
+    margin-top: 5rem;
+}
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.cartCard{
+    width: 96%;
+}
+.cart-product{
+    width: 100%;
+    margin-right: 3rem;
+}
+.checkout{
+    width: 100%;
+   
+}
+.orderbox{
+    margin-top: 5rem;
+}
+.categori-view{
+    margin-top: 5rem;
+}
+.Cartcheckout{
+    margin-top: 9rem;
+    padding: 1rem;
+}
+.checkDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutForm{
+    width: 90%;
+    gap: 1rem;
+}
+.name-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding-top: 0.5rem;
+}
+.name-email input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 6px rgba(128, 128, 128, 0.053);
+}
+.billingCheckout{
+    width: 90%;
+}
+header nav{
+    gap: 0;
+}
+.hero-content{
+    top: 0;
+    margin-left: 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pop-msg{
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+}
+.orderbox{
+    margin-top: 6.5rem;
+}
+.orders{
+    width: 100%;
+}
+.cartImage{
+    width: 6rem;
+    height: auto;
+}
+.cartImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cartOutline{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.cartOutline p{
+    font-size: 0.9rem;
+}
+.icreament-Button{
+    gap: 0.5rem;
+}
+
+.search-pop-container{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 }
 @media (max-width: 700px){
@@ -2966,6 +3315,181 @@ header nav{
 }
 .cart-btn .carticon{
     display: none;
+}
+.popItem{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    gap: 0;
+}
+.popOutline{
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.search-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    overflow: hidden;
+    width: 70%;
+}
+.search-input-container input{
+    width: 70%;
+    height: 2rem;
+}
+.imageScetion{
+    width: 100%;
+    height: 40%;
+}
+.search-popup.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.search-pop-container{
+    width: 80%;
+    height: 90%;
+    overflow: hidden;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.filterTabs button{
+    width: 3rem;
+    height: 3rem;
+}
+.productDetail{
+    width: 100%;
+    gap: 0.3rem;
+}
+.productDetail h6{
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+.popdescription,.popitemCategory,.discount,.popPrice{
+    font-size: 0.9rem;
+}
+.cartContainer{
+    margin-top: 5rem;
+}
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.cartCard{
+    width: 96%;
+}
+.cart-product{
+    width: 100%;
+    margin-right: 3rem;
+}
+.checkout{
+    width: 100%;
+   
+}
+.orderbox{
+    margin-top: 5rem;
+}
+.categori-view{
+    margin-top: 5rem;
+}
+.Cartcheckout{
+    margin-top: 9rem;
+    padding: 1rem;
+}
+.checkDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutForm{
+    width: 90%;
+    gap: 1rem;
+}
+.name-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding-top: 0.5rem;
+}
+.name-email input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 6px rgba(128, 128, 128, 0.053);
+}
+.billingCheckout{
+    width: 90%;
+}
+header nav{
+    gap: 0;
+}
+.hero-content{
+    top: 0;
+    margin-left: 0;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pop-msg{
+    bottom: 1rem;
+    right: 1rem;
+    position: fixed;
+}
+.orderbox{
+    margin-top: 6.5rem;
+}
+.orders{
+    width: 100%;
+}
+.cartImage{
+    width: 6rem;
+    height: auto;
+}
+.cartImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cartOutline{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+.cartOutline p{
+    font-size: 0.9rem;
+}
+.icreament-Button{
+    gap: 0.5rem;
+}
+
+
+.search-pop-container{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 }
 @media (max-width: 520px){
@@ -3183,9 +3707,7 @@ header nav{
     gap: 0.5rem;
 }
 
-.search-popup {
-    
-}
+
 .search-pop-container{
     padding-top: 0;
     padding-bottom: 0;

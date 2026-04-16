@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+    <script src="index.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="home">
+                <div class="logo">
+                <h3><span>Green</span><span class="green">Earth</span><span class="dot">.</span></h3>
+            </div>
+            </a>
+
+    
+    <div class="searches">
+    <input type="search" name="" id="" placeholder="Search product">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <nav>
+                 <button class="searchtoggle"><i class="fa-solid fa-search"></i></button>
+                <div class="categories">
+<button class="category-btn"><i class="fa-solid fa-bars"></i></button>
+                    <div class="category-drop">
+                        <!--code in js -->
+                    </div>
+                </div>
+                <div class="cover">
+                   <div class="account">
+                     <button class="account-btn"><i class="fa-solid fa-user"></i> Account</button>
+                    <div class="account-drop">
+                       <!-- <button class="close">&times;</button>--> 
+                        <div class="profile-image"><img src="images/download.jfif" alt="" srcset=""></div>
+                        <div class="login">
+                            <button class="login-btn"><span>Login</span></button>
+                        </div>
+                        <button class="prof-btn"><i class="fa-solid fa-user-plus user-plus-icon"></i><span>Register</span></button>
+                         <button class="prof-btn"><i class="fa-regular fa-user"></i><span>Profile</span></button>
+                         <button class="prof-btn"><i class="fa-solid fa-user-gear"></i><span>Account</span></button>
+                        <button class="prof-btn" id="orders"><i class="fa-solid fa-box"></i><span>Orders</span></button>
+                        <button class="prof-btn"><i class="fa-regular fa-heart"></i><span>Wishlist</span></button>
+                        <button class="prof-btn"><i class="fa-solid fa-gear"></i><span>Settings</span></button>
+                    </div>
+                   </div>
+                </div>
+                    <div class="help">
+                        <button class="help-btn"><i class="fa-solid fa-circle-question"></i> Help</button>
+                        <div class="help-drop">
+                           <div class="help-scroll">
+                             <button class="prof-btn"><i class="fa-solid fa-headset"></i><span>Customer Service</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-phone"></i><span>Contact Us</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-question-circle"></i><span>FAQs</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-truck"></i><span>Shipping & Delivery</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-undo"></i><span>Returns & Refunds</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-credit-card"></i><span>Payment Options</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-search"></i><span>Order Tracking</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-info-circle"></i><span>Product Information</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-shield-alt"></i><span>Warranty & Repairs</span></button>
+                            <button class="prof-btn"><i class="fa-solid fa-comment"></i><span>Feedback & Complaints</span></button>
+                           </div>
+                            <div class="chats">
+                                <button class="live-chat"><i class="fa-solid fa-comments"></i>&nbsp;<span>Live Chat</span></button>
+                                <button class="whatsapp"><i class="fa-brands fa-whatsapp"></i>&nbsp;<span>WhatsApp</span></button>
+                            </div>
+                        </div>
+                </div>
+                    <div class="cart">
+                        <button class="cart-btn"><span class="carticon"><i class="fa-solid fa-cart-shopping"></i> Cart</span><span class="item-amount"><p><span class="numberofitem">0</span>&nbsp;<span>items</span></p><p><span>Ksh</span>&nbsp;<span class="price">0.00</span></p></span></button>
+                        <!-- <div class="cart-drop">
+                            <p>Your cart is empty.</p>
+                        </div> -->
+                    </div>
+                    <!--<button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode" aria-label="Toggle dark mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>-->
+
+            </nav>
+            
+        </div>
+    </header>
+     <!--popup short alert messages-->
+     <div class="pop-msg"><span></span></div>
+<section class="all">
+     <section class="chekoutSuceedWrapper">
+    <section class="allContent">
+    <section class="pageContent">
+      <!--hero section-->
+    <div class="herosection">
+        <div class="hero">
+            <div class="hero-images">
+                <img src="images/h1.jpg" alt="hero image" class="slide active">
+                <img src="images/h2.jpg" alt="hero image2" class="slide">
+                <img src="images/h3.webp" alt="hero image3" class="slide">
+                <img src="images/h4.jpg" alt="hero image4" class="slide">
+                <img src="images/h5.jpg" alt="hero image5" class="slide">
+                <img src="images/h6.jpg" alt="hero image6" class="slide">
+                <img src="images/h7.avif" alt="hero image7" class="slide">
+                <img src="images/h8.jpg" alt="hero image8" class="slide">
+                <img src="images/h9.jpg" alt="hero image9" class="slide">
+                <img src="images/h10.jpg" alt="hero image10" class="slide">
+                <img src="images/h11.webp" alt="hero image11" class="slide">
+            </div>
+            <div class="hero-content">
+                <h1>Your comfort</h1>
+                <h2>Is our happiness</h2>
+                <p>Get your brand new furniture from our green earth store with a free delivery plus 10% discount</p>
+                <button class="contact-us">
+                    Contact us
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--categories-->
+    <div class="categories">
+        <div class="category-head">
+            <h2><span>Shop by Category</span></h2>
+            <div class="category-bnt">
+                <button class="left-btn" id="left">&laquo;</button>
+                <button class="right-btn" id="right">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="category-list" id="category1">
+            <!-- Categories will be in JavaScript -->
+        </div>
+    </div>
+
+    <div class="office-container">
+        <div class="officeFurniture-head">
+            <h2><span>Office Desks</span></h2>
+            <div class="officeFurniture-btn">
+                <button class="left-btn" id="prevOffice">&laquo;</button>
+                <button class="right-btn" id="nxtOffice">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="officefurniture-display">
+            <!-- office furniture will be in JavaScript -->
+        </div>
+    </div>
+
+    <div class="office-chairs-container">
+        <div class="office-chair-head">
+            <h2><span>Office Chairs</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevChair">&laquo;</button>
+                <button class="right-btn" id="nxtChair">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="officeChair-display">
+            <!--office chairs will be in js codes-->
+        </div>
+
+         <div class="office-chair-head">
+            <h2><span>Game Chairs</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevGameChair">&laquo;</button>
+                <button class="right-btn" id="nxtGameChair">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="gameChairsDisplay">
+            <!--game chairs will be in js codes-->
+        </div>
+
+    </div>
+
+    <div class="filliingCabinate-container">
+        <div class="filliingCabinate-head">
+            <h2><span>Filing Cabinets</span></h2>
+            <div class="filliingCabinate-btn">
+                <button class="left-btn" id="prevFillingCabinate">&laquo;</button>
+                <button class="right-btn" id="nxtFillingCabinate">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="fillingCabinate-display">
+            <!--filling cabinet will be in js codes-->
+        </div>
+    </div>
+
+    <div class="office-chairs-container">
+         <div class="office-chair-head">
+            <h2><span>Work Stations</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevWorkStation">&laquo;</button>
+                <button class="right-btn" id="nxtWorkStation">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+            <div class="workStationDisplay">
+                <!--work stations will be in js codes-->
+            </div>
+
+             <div class="office-chair-head">
+            <h2><span>Sofas</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevSofa">&laquo;</button>
+                <button class="right-btn" id="nxtSofa">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+            <div class="sofaDisplay">
+                <!--sofas will be in js codes-->
+            </div>
+            
+    </div>
+    <div class="filliingCabinate-container">
+         <div class="office-chair-head">
+            <h2><span>Living room tables</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevTables">&laquo;</button>
+                <button class="right-btn" id="nxtTables">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="tablesDisplay">
+            <!--tables will be displayed form js codes-->
+        </div>
+    </div>
+
+    <div class="office-chairs-container">
+         <div class="office-chair-head">
+            <h2><span>Tv Stands</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevStands">&laquo;</button>
+                <button class="right-btn" id="nxtStands">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="standDisplay">
+            <!--stand will be displayed form js codes-->
+        </div>
+         <div class="office-chair-head">
+            <h2><span>Living room cabinets</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevCabinet">&laquo;</button>
+                <button class="right-btn" id="nxtCabinet">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="cabinetDisplay">
+            <!--cabinets in js codes-->
+        </div>
+
+    </div>
+
+     <div class="filliingCabinate-container">
+        <div class="office-chair-head">
+            <h2><span>Beds</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevbed">&laquo;</button>
+                <button class="right-btn" id="nxtbed">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="bed-Display">
+            <!--bed in js codes-->
+        </div>
+     </div>
+
+     <div class="office-chairs-container">
+        <div class="office-chair-head">
+            <h2><span>Wall Drops</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevwall">&laquo;</button>
+                <button class="right-btn" id="nxtwall">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="wallDropDisplay">
+            <!--wall drpes in js codes-->
+        </div>
+        <div class="office-chair-head">
+            <h2><span>Dressers</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevDressers">&laquo;</button>
+                <button class="right-btn" id="nxtDressers">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="DressersDisplay">
+            <!--wall drpes in js codes-->
+        </div>
+        <!--<div class="office-chair-head">
+            <h2><span>Wardrobes</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevWardrobes">&laquo;</button>
+                <button class="right-btn" id="nxtWardrobes">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>-->
+        <div class="WardrobesDisplay">
+            <!--wardrobes in js codes-->
+        </div>
+     </div>
+
+     <div class="filliingCabinate-container">
+        <div class="office-chair-head">
+            <h2><span>Night stand</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevnightstand">&laquo;</button>
+                <button class="right-btn" id="nxtstand">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="nightStand-Display">
+            <!--night stand  in js codes-->
+        </div>
+     </div>
+
+
+     <div class="office-chairs-container">
+         <div class="office-chair-head">
+            <h2><span>Vanities</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevVanities">&laquo;</button>
+                <button class="right-btn" id="nxtVanities">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="Displaying" id="VanitiesDisplay">
+            <!--stand will be displayed form js codes-->
+        </div>
+         <div class="office-chair-head">
+            <h2><span>Headboards</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevHeadboards">&laquo;</button>
+                <button class="right-btn" id="nxtHeadboards">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="HeadboardsDisplay">
+            <!--cabinets in js codes-->
+        </div>
+
+    </div>
+
+     <div class="filliingCabinate-container">
+        <div class="office-chair-head">
+            <h2><span>Footboards</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevFootboards">&laquo;</button>
+                <button class="right-btn" id="nxtFootboards">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="FootboardsDisplay">
+            <!--night stand  in js codes-->
+        </div>
+     </div>
+
+
+
+      <div class="office-chairs-container">
+         <div class="office-chair-head">
+            <h2><span>Bedframes</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevBedFrames">&laquo;</button>
+                <button class="right-btn" id="nxtBedFrames">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="Displaying" id="BedFramesDisplay">
+            <!--stand will be displayed form js codes-->
+        </div>
+         <div class="office-chair-head">
+            <h2><span>Bedside table</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevBedFrames">&laquo;</button>
+                <button class="right-btn" id="nxtBedFrames">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="BedsideDisplay">
+            <!--cabinets in js codes-->
+        </div>
+
+    </div>
+
+
+    <div class="filliingCabinate-container">
+        <div class="office-chair-head">
+            <h2><span>Dining Tables</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevDining">&laquo;</button>
+                <button class="right-btn" id="nxtDining">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="DiningDisplay">
+            <!--night stand  in js codes-->
+        </div>
+     </div>
+<div class="office-chairs-container">
+         <div class="office-chair-head">
+            <h2><span>Dinning chairs</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevdinningChairs">&laquo;</button>
+                <button class="right-btn" id="nxtdinningChairs">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+
+        <div class="Displaying" id="DiningChairsDisplay">
+            <!--stand will be displayed form js codes-->
+        </div>
+         <div class="office-chair-head">
+            <h2><span>Side boards</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevSideboards">&laquo;</button>
+                <button class="right-btn" id="nxtSideboards">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="SideboardsDisplay">
+            <!--cabinets in js codes-->
+        </div>
+
+    </div>
+
+
+<div class="filliingCabinate-container">
+        <div class="office-chair-head">
+            <h2><span>Buffet</span></h2>
+            <div class="officeChairs-btn">
+                <button class="left-btn" id="prevBuffets">&laquo;</button>
+                <button class="right-btn" id="nxtBuffets">&raquo;</button>
+                <button class="seeAll">See All</button>
+            </div>
+        </div>
+        <div class="Displaying" id="BuffetsDisplay">
+            <!--night stand  in js codes-->
+        </div>
+     </div>
+
+   
+  </section>
+    <!--category filter section-->
+
+     <div class="categori-view">
+
+        <!--sub-category button-->
+        <div class="subcategories" id="subcategory-list">
+
+        </div>
+
+        <!--category product-->
+        <div class="category-product" id="category-product">
+
+        </div>
+     </div>
+ </section>
+
+     <!--add to cart pop up-->
+<div class="search-popup">
+    <button class="search-close">&times;</button>
+        <div class="search-pop-container">
+            
+            <div class="search-input-container">
+                <input type="text" class="search-input" placeholder="Search for products, brands and more...">
+                <button class="search-submit-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </div>
+
+     
+    
+     <!--cart-->
+     <div class="cartContainer">
+        <h5>Cart<span></span></h5>
+        <div class="cartItem">
+            <div class="cart-product"></div>
+            <div class="checkout">
+                <h6>Billing details</h6>
+                <div class="billingDeatils">
+                    <p><span>Item total</span><span class="totalAmount"></span></p>
+                    <p><span>Quantity total</span><span class="total"><span class="totalItems"></span>&nbsp;<span>Items</span></span></p>
+                    <p><span>Delivery Charges</span><span class="DeliveryCharges"></span></p>
+                </div>
+                <button class="checkoutBtn"><span class="totalbtnAmount"></span><span>Proceed&nbsp;<i class="fa-solid fa-play"></i></span></button>
+            </div>
+        </div>
+     </div>
+ </section>
+
+ <div class="Cartcheckout">
+   <div class="checkout-head">
+     <h5>Checkout <span></span></h5>
+     <button class="cancelCheckout">&times;</button>
+   </div>
+
+   <div class="checkDetail">
+     <div class="checkoutForm">
+        <div class="name-email">
+        <input type="text" placeholder="name" class="name">
+        <input type="email" placeholder="email" class="email">
+        </div>
+        <div class="name-email">
+        <input type="tel" placeholder="contact" class="contact">
+        <input type="text" placeholder="address" class="adress">
+        </div>
+    </div>
+    <div class="billingCheckout">
+        <h5>Billing detail</h5>
+        <p><span>Item total</span><span class="checkAmount"></span></p>
+        <p><span>Quantity total</span><span class="ChecktotalItem"><span class="totalItems" id="totalItems"></span>&nbsp;<span>Items</span></span></p>
+        <p><span>Delivery Charges</span><span class="checkDeliveryCharges"></span></p>
+        <div class="paymentOption">
+            <button class="online">Online Payment</button>
+            <button class="cashDelivery">Cash Delivery</button>
+        </div>
+    </div>
+   </div>
+ </div>
+</section>
+
+ <div class="orderbox">
+    <h3>Your orders <span></span></h3>
+  <div class="orders">
+    <!--<div class="orderDetails">
+    
+    <div class="orderItems">
+        
+    </div>
+  </div>-->
+
+ </div>
+ </div>
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-box">
+      <h3 class="footer-logo">
+        <span>Green</span><span class="green">Earth</span><span>.</span>
+      </h3>
+      <p>
+        Sustainable furniture for modern living. We bring comfort, style,
+        and eco-friendly designs straight to your home.
+      </p>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="footer-box">
+      <h4>Categories</h4>
+
+      <div class="footer-categories">
+
+        <button class="footer-btn" onclick="document.querySelector('.office-container').scrollIntoView({behavior:'smooth'})">
+          Office Desks
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.officeChair-display').scrollIntoView({behavior:'smooth'})">
+          Chairs
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.bed-Display').scrollIntoView({behavior:'smooth'})">
+          Beds
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.sofaDisplay').scrollIntoView({behavior:'smooth'})">
+          Sofas
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.tablesDisplay').scrollIntoView({behavior:'smooth'})">
+          Tables
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.nightStand-Display').scrollIntoView({behavior:'smooth'})">
+          Nightstands
+        </button>
+
+        <button class="footer-btn" onclick="document.querySelector('.wallDropDisplay').scrollIntoView({behavior:'smooth'})">
+          Wardrobes
+        </button>
+
+      </div>
+    </div>
+
+    <!-- HELP -->
+    <div class="footer-box">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Shipping Info</a></li>
+        <li><a href="#">Returns & Refunds</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Order Tracking</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-box">
+      <h4>Contact Us</h4>
+      <p><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</p>
+      <p><i class="fa-solid fa-phone"></i> +254 700 000 000</p>
+      <p><i class="fa-solid fa-envelope"></i> support@greenearth.com</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 Green Earth. All Rights Reserved.</p>
+  </div>
+
+</footer>
+</body>
+
+</html>

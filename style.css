@@ -2731,7 +2731,18 @@ header nav{
 }
 /* Responsive Design for Orders */
 @media (max-width: 768px) {
-   
+   body{
+    padding: 0;
+    margin: 0;
+   }
+   .office-chairs-container,.filliingCabinate-container
+   {
+    width: 100%;
+    padding: 0.05rem;
+   }
+   .office-chair-head{
+    justify-content: space-around;
+   }
     header nav{
         display: flex;
         flex-direction: row;
@@ -3011,6 +3022,26 @@ header nav{
 .search-pop-container{
     padding-top: 0;
     padding-bottom: 0;
+}
+.officefurniture-display,
+.gameChairsDisplay,
+.fillingCabinate-display,
+.workStationDisplay,
+.sofaDisplay,
+.tablesDisplay,
+.standDisplay,
+.cabinetDisplay,
+.bed-Display,
+.wallDropDisplay,
+.DressersDisplay,
+.nightStand-Display,
+.Displaying{
+    width: 100%;
+    margin: 0;
+
+}
+.office-container{
+    padding: 0;
 }
 }
 /*@media (max-width: 950px){
